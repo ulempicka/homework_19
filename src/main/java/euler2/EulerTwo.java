@@ -3,9 +3,9 @@ package euler2;
 public class EulerTwo {
     public int sumFibonacciEvenNumbers(int limit) {
 
-        int sum = 2;
-        int fibonacci1 = 1;
-        int fibonacci2 = 2;
+        int sum = 0;
+        int fibonacci1 = 0;
+        int fibonacci2 = 1;
         int fibonacci3 = 0;
 
         while(fibonacci3 < limit) {
