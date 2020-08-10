@@ -16,7 +16,7 @@ public class EulerTwoTest {
     }
 
     @Test
-    void shouldReturn10ForLimit9(){
+    void shouldReturn10ForLimit9() {
         //given
         int limit = 9;
 
@@ -29,7 +29,7 @@ public class EulerTwoTest {
     }
 
     @Test
-    void shouldNotReturn10ForLimit8(){
+    void shouldNotReturn10ForLimit8() {
         //given
         int limit = 8;
 
@@ -43,7 +43,7 @@ public class EulerTwoTest {
     }
 
     @Test
-    void shouldReturn0ForLimit1(){
+    void shouldReturn0ForLimit1() {
         //given
         int limit = 1;
 
@@ -56,7 +56,7 @@ public class EulerTwoTest {
     }
 
     @Test
-    void shouldReturn44ForLimit35(){
+    void shouldReturn44ForLimit35() {
         //given
         int limit = 35;
 
@@ -69,7 +69,7 @@ public class EulerTwoTest {
     }
 
     @Test
-    void shouldReturn798ForLimit611(){
+    void shouldReturn798ForLimit611() {
         //given
         int limit = 611;
 
@@ -80,6 +80,5 @@ public class EulerTwoTest {
         int expectedSum = 798;
         Assertions.assertThat(actualSum)
                 .isEqualTo(expectedSum);
-
     }
 }
