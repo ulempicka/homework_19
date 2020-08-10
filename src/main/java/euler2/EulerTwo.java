@@ -4,21 +4,20 @@ public class EulerTwo {
     public int sumFibonacciEvenNumbers(int limit) {
 
         int sum = 2;
-        int n1 = 1;
-        int n2 = 2;
-        int n3 = 0;
-        while(n3 < limit) {
-            n3 = n1 + n2;
-            n1 = n2;
-            n2 = n3;
+        int fibonacci1 = 1;
+        int fibonacci2 = 2;
+        int fibonacci3 = 0;
 
-            if (n3 % 2 == 0) {
-                System.out.println(n3);
-                sum += n3;
+        while(fibonacci3 < limit) {
+            fibonacci3 = fibonacci1 + fibonacci2;
+            fibonacci1 = fibonacci2;
+            fibonacci2 = fibonacci3;
+
+            if (fibonacci3 % 2 == 0) {
+                System.out.println(fibonacci3);
+                sum += fibonacci3;
             }
         }
         return sum;
     }
-
-
 }

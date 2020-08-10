@@ -70,7 +70,6 @@ class EulerTest {
         int expectedSum = 45;
         Assertions.assertThat(actualSum)
                 .isEqualTo(expectedSum);
-
     }
 
     @Test

@@ -43,6 +43,19 @@ public class EulerTwoTest {
     }
 
     @Test
+    void shouldReturn0ForLimit1(){
+        //given
+        int limit = 1;
+
+        //when
+        int actualSum = eulerTwo.sumFibonacciEvenNumbers(limit);
+
+        //then
+        int expectedSum = 0;
+        assertEquals(expectedSum, actualSum);
+    }
+
+    @Test
     void shouldReturn44ForLimit35(){
         //given
         int limit = 35;
