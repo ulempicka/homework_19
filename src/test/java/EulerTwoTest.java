@@ -37,8 +37,8 @@ public class EulerTwoTest {
         int actualSum = eulerTwo.sumFibonacciEvenNumbers(limit);
 
         //then
-        int expectedSum = 10;
-        assertThat(actualSum, is(not(equalTo(expectedSum))));
+        int sumForLimit9 = 10;
+        assertThat(actualSum, is(not(equalTo(sumForLimit9))));
         assertThat(actualSum, is(equalTo(2)));
     }
 
